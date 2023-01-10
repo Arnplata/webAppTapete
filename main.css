@@ -1,0 +1,931 @@
+body{
+    font-family: "Poppins";
+    font-weight: 500;
+    
+    margin: 0;
+
+}
+
+h1{
+    margin-bottom: 0%;
+}
+.subtitlPrinc{
+    text-align: center;
+    font-size: 25px;
+    color: #707070;
+}
+h2{
+    margin-left: 4.16%;
+}
+
+
+li{
+    margin-bottom: 1em;
+}
+
+#contGrilla{
+
+width: 100%;
+
+border: 1px solid #707070;
+
+}
+    
+    .fila{display: flex;}
+    
+    .tecla{
+        
+width: 6rem;
+        
+height: 4rem;
+        
+background: white;
+        
+box-shadow: inset 0 0 0 1px #707070;
+        
+display: flex;
+        
+justify-content: center;
+        
+align-items: center;
+        
+font-size: 27px;
+        
+font-weight: 800;
+        
+box-sizing: border-box;
+
+transition: color .3s, background-color .3s;
+}
+
+.g-title{
+    
+width: 100%;
+    
+height: 2em;
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: center;
+    
+border: 1px solid #707070;
+    
+color: white;
+    
+background-color: #707070;
+    
+font-size: 19px;
+    
+font-weight: 700;
+}
+
+.tecla.f.active{
+    background-color: red;
+    color: white;
+}
+
+.tecla.i{
+    box-shadow: inset 0 0 0 4px green;
+    color: green;
+}
+
+.tecla.d{
+    box-shadow: inset 0 0 0 4px blue;
+    color: blue;
+}
+
+.tecla.i.active{
+    background-color: green;
+    color: white;
+    
+
+}
+
+.tecla.d.active{
+    background-color: blue;
+    color: white;
+}
+
+
+
+.instr{
+
+margin-top: 1em;
+
+border: 4px solid #707070;
+
+text-align: center;
+
+font-weight: 600;
+}
+
+.pieInicio{
+
+}
+
+.subContInst{
+
+display: flex;
+
+justify-content: space-around;
+
+border-top: 3px solid #707070;
+
+padding: 4px 0 3px 0;
+}
+
+.derecho{
+
+color: blue;
+}
+
+.izquierdo{
+    
+color: green;
+}   
+
+.btn{
+    color: white;
+    background-color: #707070;
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 0.5em;
+}
+
+.btnCont{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.semCont{
+    margin-top: 1em;
+}
+
+.rectanguloGris{color: white;background-color: #707070;}
+
+.rectanguloGris .interno{
+    
+}
+
+.rectanguloGris .interno .contTit{
+    
+display: flex;
+}
+
+.rectanguloGris .interno .libre{
+    
+width: 100%;
+    
+height: 0.4rem;
+    
+background-color: white;
+}
+
+.rectanguloGris .interno .contBene{
+    
+display: flex;
+    
+margin-top: 0.5rem;
+}
+
+.beneTit{
+
+width: 50%;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+}
+
+.beneTit h2{
+
+font-weight: 600;
+
+font-size: 19px;
+
+text-align: center;
+
+width: 31vw;
+
+margin: 0.3em;
+}
+
+.beneLista{
+
+font-size: 13px;
+
+width: 50%;
+
+margin-left: 0em;
+}
+
+ul{
+    padding-inline-start: 7vw;
+    padding-inline-end: 2vw;
+}
+
+.meta{
+
+text-align: center;
+
+color: #707070;
+
+padding: 0 3rem;
+
+margin-top: 2rem;
+}
+
+.meta h3{
+
+font-size: 38px;
+
+margin: 0;
+}
+
+.meta p{
+    
+margin: 0;
+    
+font-size: 20px;
+}
+
+.botones {
+
+margin-top: 2rem;
+
+margin-bottom: 2rem;
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+}
+
+.botones .boton{
+    
+background-color: #707070;
+    
+color: white;
+    
+margin-bottom: 0.8rem;
+    
+font-size: 30px;
+    
+box-sizing: border-box;
+    
+padding: 0.5em;
+    
+width: 70vw;
+    
+text-align: center;
+    
+border-radius: 12px;
+
+
+}
+
+
+
+.introduccion {
+
+color: #707070;
+}
+
+.introduccion h1{
+    
+margin-top: 1rem;
+    
+text-align: center;
+    
+font-size: 29px;
+}
+
+.introduccion p{
+    
+margin-left: 4.16%;
+}
+
+.tapeteFisico{
+
+width: 50% !important;
+}
+
+.header{
+    
+color: white;
+    
+background-color: #707070;
+    
+font-size: 30px;
+    
+text-align: end;
+    
+padding: 8px 14px;
+}
+
+
+
+
+.tapeteFisico .contTapete{box-sizing: border-box;padding: 3px;border: 0 !important;}
+
+.tapeteFisico .g-title{
+
+height: 26px;
+
+font-size: 17px;
+}
+
+.tapeteFisico .tecla{
+
+width: 100%;
+
+height: 13vw;
+
+font-size: 22px;
+
+box-shadow: inset 2px;
+}
+
+.tapContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.acciones{
+    
+width: 45%;
+    
+display: flex;
+    
+flex-direction: column;
+    
+align-items: center;
+    
+justify-content: space-around;
+}
+
+
+
+.acciones .inicio{
+
+text-align: center;
+
+width: 30vw;
+
+height: 30vw;
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+justify-content: space-between;
+}
+
+.acciones .inicio-t{
+
+background-color: #BDBFC1;
+
+color: white;
+
+border-radius: 20px;
+
+height: 100%;
+
+display: flex;
+
+}
+
+#inicio.b{
+    color: blue;
+}
+
+#inicio.g{
+    color: green;
+}
+
+#pInicioBx{
+    height: 25%;
+    width: 50%;
+}
+
+.acciones .inicio-t.der{
+
+  justify-content: flex-end;
+}
+
+    
+.acciones .inicio-t.izq{
+    justify-content: flex-start;
+  
+}
+
+
+.acciones .inicio-t .boton{
+
+background-color: white;
+
+border-radius: 100%;
+
+height: 100%;
+
+width: 50%;
+
+border: 1px solid black;
+}
+
+.acciones .vueltas{width: 40vw;text-align: center;}
+
+.vueltas .label{
+    
+background: #707070;
+    
+color: white;
+}
+
+.inputs{
+
+width: 45vw;
+}
+
+.inputs .inpt{
+
+}
+
+.inputs .inpt:last-child{
+
+text-align: center;
+
+font-size: 18px;
+}
+
+.inpt .frecuencia{
+
+font-size: 15px;
+}
+
+.inpt .frec-input{
+
+border: 0;
+
+border-bottom: 1px solid #707070;
+
+width: 95%;
+
+color: #606060;
+}
+
+.inpt .completado{
+    
+}
+
+.bitacora{
+
+}
+
+
+
+.bitacora .video{
+    width: 100%;
+    display: flex;
+}
+
+.bitacora .video iframe{
+    margin: auto;
+}
+
+.bitacora h1{
+
+text-align: center;
+
+color: #5e5e5e;
+}
+
+.pCont p{
+
+color: #707070;
+
+width: 22em;
+
+margin: 3vw 0;
+}
+
+.pCont{
+    
+display: flex;
+    
+justify-content: center;
+}
+
+.pContInstr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    }
+
+    .pContInstr p{
+
+        color: #707070;
+        
+        width: 22em;
+        
+        margin: 3vw 0;
+        }
+
+.bitacora .escalaEsfuerzo{
+
+padding-left: 3vw;
+
+color: #707070;
+
+padding-right: 3vw;
+}
+
+.bitacora .escalaEsfuerzo .renglonEsfuerzo{
+
+display: flex;
+
+justify-content: space-between;
+
+margin: 2vw 0;
+
+align-items: center;
+}
+
+.renglonEsfuerzo {}
+
+.renglonEsfuerzo .num{
+
+width: 10%;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+}
+
+.renglonEsfuerzo label{
+
+width: 80%;
+
+background-color: gray;
+
+color: white;
+
+padding: 1.5vw;
+
+border-radius: 13px;
+
+font-size: 14px;
+}
+
+.renglonEsfuerzo input{
+
+margin: 0;
+}
+
+
+.renglonEsfuerzo .inptBox{
+
+margin: 0;
+
+display: flex;
+
+align-items: center;
+
+}
+
+
+.diaCont{
+
+display: flex;
+
+padding: 3vw;
+
+justify-content: space-between;
+}
+
+#diaPalabra{
+
+font-size: 31px;
+
+color: #5e5e5e;
+}
+
+#diaNumero{
+    
+display: flex;
+    
+align-items: center;
+    
+color: #707070;
+    
+font-size: 19px;
+}
+
+.triangulo {
+    
+}
+
+.btnDemostracionCont {
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+}
+    
+    .btnDemostracionCont .btnDemostracion{
+        
+background-color: #707070;
+        
+color: white;
+        
+font-size: 17px;
+        
+padding: 0.5em;
+        
+text-align: center;
+        
+border-radius: 12px;
+    }
+
+    .btnFinalizarCont {
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+}
+        
+        .btnFinalizarCont .btnFinalizar{
+            
+background-color: #707070;
+            
+color: white;
+            
+font-size: 19px;
+            
+padding: 0.5em;
+            
+text-align: center;
+            
+border-radius: 12px;
+        }
+
+#ejerciciosMenuCont{
+    
+height: 36vw;
+    
+display: flex;
+    
+flex-direction: column;
+    
+width: 100%;
+    
+justify-content: space-between;
+}
+
+#ejerciciosMenuCont .btnEjercicio{
+    
+width: 6em;
+    
+background: #707070;
+    
+color: white;
+    
+font-weight: 400;
+    
+padding: 0.3em 0.1em;
+    
+border-radius: 15px;
+    
+width: 6em;
+    
+text-align: center;
+}
+
+.contEscalaCaras {
+
+margin-bottom: 3em;
+}
+
+.contEscalaCaras .caraBtnCont{
+
+display: flex;
+
+flex-direction: column;
+
+justify-content: center;
+
+align-items: center;
+}
+
+.caras{
+    
+display: flex;
+    
+justify-content: space-around;
+}
+
+
+label .cara{
+
+    width: 13vw;
+    height: 13vw;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caraBtnCont .cara1{
+    background-image: url(/assets/cara1_5.png);
+}
+
+.caraBtnCont .cara2{
+    background-image: url(/assets/cara2_5.png);       
+}
+.caraBtnCont .cara3{
+    background-image: url(/assets/cara3_5.png);
+}
+.caraBtnCont .cara4{
+    background-image: url(/assets/cara4_5.png);
+}
+
+.caraBtnCont .cara5{
+    background-image: url(/assets/cara5_5.png);
+}
+
+.caraBtnCont input{
+
+margin: 0;
+
+margin-top: .5em;
+}
+
+.pContInstr p:first-child{color: #5e5e5e;margin: 0;}
+
+.instrucciones .imagenTapeteCont {
+
+width: 100%;
+
+display: flex;
+
+justify-content: center;
+
+align-content: center;
+
+margin-bottom: 3em;
+}
+
+.imagenTapeteCont .imagenTapete{
+    height: 100vw;
+    width: 60vw;
+    background-image: url(/assets/instTapete.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.instrucciones .video{
+    
+margin-bottom: 3em;
+}
+
+.video .videoFrame{
+    width: 100%;
+    height: 56vw;
+}
+
+.instrucciones .header{
+    margin-bottom: 1em;
+}
+
+.btnEjercicioCnt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btnEjercicioCnt .i{
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btnEjercicioCnt .d{
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.true{
+    text-decoration: line-through;
+    font-weight: 200!important;
+    color: #707070 !important;
+}
+
+.d.slc{
+    border-bottom: 2.5px solid blue;
+}
+
+.i.slc{
+    border-bottom: 2.5px solid green;
+}
+
+.true.slc{
+    border-bottom: 2.5px solid #707070;
+}
+
+.actve{
+    background: #d9d9d9!important;
+    color: #707070 !important;
+    font-weight: 600!important;
+    border: 2px solid #707070;
+    text-decoration: underline;
+}
+
+.disabled{
+    color: #969696 !important;
+    background-color: #d9d9d9 !important;
+}
+
+.semanaFechaCont{
+
+width: fit-content;display: flex;justify-content: space-between;align-items: center;margin-top: 0.5em;}
+
+.semanaFechaCont .semana{
+
+text-decoration: underline;font-size: 21px;}
+
+.semanaFechaCont .fecha{
+
+margin-left: 2em;font-size: 18px;}
+
+.resCard{
+
+}
+
+.resCard .cardTit{
+
+margin-left: 0;font-weight: 700;margin-left: 0;}
+
+.escalaAnimo{
+
+display: flex;height: 4em;background-color: #f2f2f2f2;border-radius: 21px;align-items: center;justify-content: space-evenly;}
+
+.escalaAnimo .cara{
+
+height: 2em;width: 2em;border-radius: 100%;background: gray;margin: 0;}
+
+.escalaAnimo .num{
+
+margin: 0;}
+
+.escalaAnimo .estado{
+
+margin: 0;}
+
+.finYSubir{
+
+width: fit-content;background: gray;color: white;padding: 1em;border-radius: 16px;font-size: 21px;}
+
+.resumen{
+
+padding: 1em;box-sizing: border-box;display: flex;flex-direction: column;justify-content: space-around;height: 100vh;}
+
+.resCard div{
+    
+margin-left: 1em;margin-bottom: .5em;}
+
+.finCont{
+    
+display: flex;justify-content: center;}
+
+.resumen h2{
+    
+margin: 0;}
+
+.resCont{
+    
+height: 50%;display: flex;flex-direction: column;justify-content: space-around;}
+
+.resTit{
+    
+}
